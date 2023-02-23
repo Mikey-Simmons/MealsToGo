@@ -23,7 +23,7 @@ const RestaurantListContainer = styled.View`
 export const RestaurantsScreen = () => (
   <SafeArea>
     <SearchContainer>
-      <Searchbar placeholder="Search" />
+      <Searchbar placeholder="Search for restaurants" />
     </SearchContainer>
     <RestaurantListContainer>
       <RestaurantInfoCard />
