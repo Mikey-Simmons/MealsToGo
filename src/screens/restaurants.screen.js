@@ -12,12 +12,12 @@ flex:1;
 ${StatusBar.currentHeight && `margin-top: ${StatusBar.currentHeight}px`};
 `;
 const SearchContainer = styled.View`
-padding: 16px;
+padding: ${(props) => props.theme.space[3]};
 `;
 const RestaurantListContainer = styled.View`
   flex:1;
-  padding: 16px;
-  background-color: green
+  padding: ${(props) => props.theme.space[3]};
+  
 `;
 //end of styles
 export const RestaurantsScreen = () => (
